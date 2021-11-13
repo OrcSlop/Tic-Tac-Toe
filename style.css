@@ -1,0 +1,47 @@
+.tttTitle{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.tttTitle img{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.tttSubtitle {
+    margin:0px auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tttBody{
+    width:400px;
+    margin:0px auto;
+    margin-top:50px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.tttBody button{
+    margin: 10px;
+    width:81px;
+    height:81px;
+    font-family: Calibri;
+    font-size: 50px;
+}
+
+.tttBody button:hover{
+    box-shadow: 1px 10px 50px rgba(0,0,0,0.1);
+}
+
+.tttBody button:active{
+    box-shadow: 1px 10px 50px rgba(235, 52, 52, 0.3);
+}
